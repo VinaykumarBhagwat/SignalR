@@ -1,0 +1,38 @@
+<div>
+  <table>
+    <tr>
+      <td class="col-md-4 col-lg-4">
+        <div class="right-pad">
+            Type here and click notify
+          <input type="text" [(ngModel)]="inputMessage" />
+          <br/>
+          <button (click)="onClickNotify()">NOTIFY</button>
+        </div>
+      </td>
+      <td class="right-pad vl"></td>
+      <td class="col-md-8 col-lg-8">
+        <div class="notifyStyle" *ngFor="let item of chatMessages">
+          {{item}}
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+<br/><br/>
+<div class="right-pad">
+  Set lock for loan with username
+  <div class="right-pad">
+    <label>Loan Number</label>
+    <input type="text" [(ngModel)]="loanNumber"/>
+  </div>
+  <div class="right-pad">
+    <label>User Name</label>
+    <input type="text" [(ngModel)]="userName"/>
+  </div>
+  <button type="button" (click)="onSetLock()">Set Lock</button>
+</div>
+<br><br>
+<div>
+  Clear lock for loan
+  <input type="text" [(ngModel)]="loanNumber" />
+</div>

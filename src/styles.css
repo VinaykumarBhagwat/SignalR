@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+.notifyStyle {
+    font-weight: bold;
+    color: green;
+}
+.vl {
+    border-left: 6px solid grey;
+    height: 200px;
+}
+.right-pad {
+    padding-right: 20px;
+}
+.left-pad {
+    padding-left: 10px;
+}
+.v2 {
+    border: 10;
+    border-top: 6px solid rgba(0, 0, 0, 0.1);
+    height: 10px;
+}
+.top-buffer 
+{ 
+    margin-top:20px; 
+}
+

@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="width: 100%">
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<div>
+  <button type="button" class="btn btn-link" (click)="onChatAppClick()">Chat App</button>
+  <button type="button" class="btn btn-link" (click)="onNotifyClick()">Notify and Loan Lock</button>
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
+<!-- <div class="notifyStyle">
+  Idle status: {{ idleState }}
+</div> -->
+</div>
